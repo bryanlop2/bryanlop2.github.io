@@ -1,0 +1,19 @@
+<div class="loading" *ngIf="loading">
+  <img src="../../../assets/Spinner-1s-200px (1).gif" alt="" />
+</div>
+<div class="pokemon-container">
+  <search-card
+    class="pokemon-search"
+    (searchValue)="searchPokemon($event.target.value)"
+  ></search-card>
+  <pokemons-card class="pokemon" [pokemonData]="pokemonData"></pokemons-card>
+</div>
+<div class="pokemon" *ngIf="pokemons">
+  <div class="pokemon-card-full" *ngFor="let pokemon of pokemons; let i = index">
+    <div class="pokemon-card" [ngStyle]="{'background-color': pokemons[i].pokemonType}">
+      <img class="pokemon-img" src="{{pokemons[i].pokemonImgLink}}" alt="{{pokemons[i].pokemonName}}" />
+      <h2 class="pokemon-name">#{{pokemons[i].pokemonNumber}} {{ pokemons[i].pokemonName }}</h2>
+    </div>
+  </div>
+</div>
+<button (click)="loadMorePokemons()" class="btn-flotante">Load More</button>

@@ -1,0 +1,13 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  background-color: #082040;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cursor {
+  cursor: pointer;
+}
