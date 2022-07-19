@@ -1,0 +1,109 @@
+{
+  "configVersion": 1,
+  "timestamp": 1658191719350,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/207.25ec24ff585d0a06.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.5c84dba8d55c4643.js",
+        "/manifest.webmanifest",
+        "/polyfills.41fb6d186b328c4d.js",
+        "/runtime.4f581a811d5c0686.js",
+        "/styles.f26cdcb57409ceba.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/Instagram_logo_2016.svg",
+        "/assets/Spinner-1s-200px (1).gif",
+        "/assets/Spinner-1s-200px.gif",
+        "/assets/angle-right-solid.svg",
+        "/assets/descarga.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/icons8-facebook-nuevo.svg",
+        "/assets/icons8-instagram.svg",
+        "/assets/icons8-tik-tok.svg",
+        "/assets/icons8-youtube.svg",
+        "/assets/pokecen-singapore-featured-img-1-ninsoup.webp",
+        "/assets/tiktok-5962992_960_720.webp",
+        "/assets/welcome.gif",
+        "/assets/welcometemp.gif"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/207.25ec24ff585d0a06.js": "3b2cd9247f9fa15cfba6a788ed6e0afd8e7817da",
+    "/assets/Instagram_logo_2016.svg": "96654a8a3126a62538a14a356eb855acfe531268",
+    "/assets/Spinner-1s-200px (1).gif": "4967cd973f08aa9e99e2e59a793d516a6017d2a3",
+    "/assets/Spinner-1s-200px.gif": "b343bccf38f2c0d6dbe35ec544a50f4c561141f8",
+    "/assets/angle-right-solid.svg": "e87d519bef6fa1def8f4dba26188e97461203eb8",
+    "/assets/descarga.png": "f7d30b07c385c95d778b86f635a6a8632c2ba669",
+    "/assets/icons/icon-128x128.png": "a73bca43c37ac26dbac5b33bee55529eef11d5fb",
+    "/assets/icons/icon-144x144.png": "e66a9b96f8474854dc0573321990b1288d15cab8",
+    "/assets/icons/icon-152x152.png": "5f00700d06f4b0908bd531d09645c2d681162107",
+    "/assets/icons/icon-192x192.png": "a8edca006d7a2634702068b2e76ab146adaf2c63",
+    "/assets/icons/icon-384x384.png": "f7777b99626b5ec48c93acff1ae495972b16b1d8",
+    "/assets/icons/icon-512x512.png": "fd05b659d7c94f6d99a0a765420f5d34a77912c9",
+    "/assets/icons/icon-72x72.png": "855cde3d9a466005d58f059e3c4f834eba412fb9",
+    "/assets/icons/icon-96x96.png": "a93762638ce278096e6001a768110a0bc930de24",
+    "/assets/icons8-facebook-nuevo.svg": "560b5a915d6c0ef686a10fd31b2475bb342f8add",
+    "/assets/icons8-instagram.svg": "09d7cdbbbc4b6c42138218e594859ab8c03f0952",
+    "/assets/icons8-tik-tok.svg": "c1d877e407a9418a6f46716d99c3b998a3845284",
+    "/assets/icons8-youtube.svg": "1b4eefabb003f2f9bdb3c9e406e460faa4bc82e9",
+    "/assets/pokecen-singapore-featured-img-1-ninsoup.webp": "9d2ba93593a852e53fd1898ffd6ef2b04c5af4c5",
+    "/assets/tiktok-5962992_960_720.webp": "417a3a39a5846849f00b00856fd3b9fe803dc2cc",
+    "/assets/welcome.gif": "81b0d40eea910446d7be90ae237f3e15237f6301",
+    "/assets/welcometemp.gif": "48de98a44f72435cc1feeca2da38233269982175",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "3e4492cdab5e47cc4955b4aa1aef0af497359a35",
+    "/main.5c84dba8d55c4643.js": "b8231a388449f925cfc8be81428f566cf3492ce8",
+    "/manifest.webmanifest": "0a0fd5ba14fdf5da74fa4c74c9178ae5f727fb28",
+    "/polyfills.41fb6d186b328c4d.js": "6578a37d709f77057d43ba29d1560fc5daad6adc",
+    "/runtime.4f581a811d5c0686.js": "4d9f53db0c6ec593c776e4b7373db3554be2f957",
+    "/styles.f26cdcb57409ceba.css": "15675f4eafadd6fbe22d03e4b29f87edb0e9d4a2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
